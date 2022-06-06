@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/male_option"
+        android:icon="@drawable/baseline_male_black_24dp"
+        android:title="@string/male" />
+    <item
+        android:id="@+id/female_option"
+        android:icon="@drawable/baseline_female_black_24dp"
+        android:title="@string/female" />
+</menu>
