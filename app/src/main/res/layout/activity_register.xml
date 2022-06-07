@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:transitionName="transition_login"
     android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
     android:padding="30dp"
-    android:background="#E1F9EF"
+    android:transitionName="transition_login"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -17,71 +17,80 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_gravity="center"
             android:layout_marginTop="80px"
-            >
+            android:orientation="vertical">
+
             <ImageView
                 android:layout_width="110px"
                 android:layout_height="110px"
-                android:background="@mipmap/ic_launcher"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10px"
-                />
+                app:srcCompat="@drawable/pet_logo" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="56px"
                 android:layout_gravity="center"
-                android:gravity="center"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:text="OrixPet"
                 android:layout_marginBottom="6px"
-                />
+                android:gravity="center"
+                android:text="OrixPet"
+                android:textColor="@color/black"
+                android:textSize="56px"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30px"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:text="Community we all need"
-                />
+                android:textSize="30px" />
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="40dp"
                 android:text="Register"
                 android:textAllCaps="true"
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
                 android:text="Enter your name and password"
                 android:textAllCaps="true"
-                android:textSize="10sp"
-                />
+                android:textSize="10sp" />
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.AppCompat.ActionBar.Solid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:hint="name"
+                app:boxBackgroundColor="#FFFFFF"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
                 app:boxStrokeColor="@color/black"
-                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
@@ -90,11 +99,11 @@
 
 
                 <EditText
+                    android:id="@+id/name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:padding="10dp"
-                    android:id="@+id/name"/>
+                    android:padding="10dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,52 +111,78 @@
                 style="@style/Widget.AppCompat.ActionBar.Solid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:hint="email"
+                app:boxBackgroundColor="#FFFFFF"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
                 app:boxStrokeColor="@color/black"
-                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/email"
                 app:startIconTint="@color/black">
 
                 <EditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:padding="10dp"
-                    android:id="@+id/email"/>
+                    android:padding="10dp" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.AppCompat.ActionBar.Solid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:hint="Phone Number"
+                app:boxBackgroundColor="#FFFFFF"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
                 app:boxStrokeColor="@color/black"
-                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/phone"
                 app:startIconTint="@color/black">
 
                 <EditText
+                    android:id="@+id/number"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:padding="10dp"
                     android:inputType="number"
-                    android:id="@+id/number"/>
+                    android:padding="10dp" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.AppCompat.ActionBar.Solid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:hint="password"
+                app:boxBackgroundColor="#FFFFFF"
+                app:boxBackgroundMode="outline"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusTopStart="10dp"
                 app:boxStrokeColor="@color/black"
-                app:boxStrokeWidthFocused="2dp"
+                app:boxStrokeWidth="1dp"
+                app:boxStrokeWidthFocused="1dp"
                 app:endIconMode="password_toggle"
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
@@ -155,34 +190,34 @@
                 app:startIconTint="@color/black">
 
                 <EditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
-                    android:padding="10dp"
-                    android:id="@+id/password"/>
+                    android:padding="10dp" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_bg"
                 android:text="Register"
-                android:id="@+id/register"
-                android:textSize="60px"
-                android:background="#3798DA"
                 android:textColor="@color/white"
-                android:layout_marginTop="20dp"/>
+                android:textSize="20sp" />
+
             <Button
+                android:id="@+id/login_user"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login"
-                android:id="@+id/login_user"
-                android:layout_marginTop="20dp"
-                android:textColor="@color/black"
-                android:background="#00000000"
                 android:layout_gravity="center"
-                />
+                android:layout_marginTop="20dp"
+                android:background="#00000000"
+                android:text="Login"
+                android:textColor="@color/black" />
         </LinearLayout>
 
 

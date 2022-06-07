@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/drawable/button_bg.xml" value="0.149" />
+        <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/drawable/login_bg.xml" value="0.1495" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_add_pet.xml" value="0.26510416666666664" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_home.xml" value="0.26510416666666664" />
-        <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_login.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_main.xml" value="0.26510416666666664" />
-        <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_register.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_register.xml" value="0.33" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/pop_up.xml" value="0.26510416666666664" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/set_age_dialog.xml" value="0.26510416666666664" />
       </map>
