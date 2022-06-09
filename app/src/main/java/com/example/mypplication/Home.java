@@ -36,6 +36,7 @@ public class Home extends AppCompatActivity {
     List<PostModel> postList;
     CustomAdapter customAdapter;
     PostManager postManager;
+    Button button_profile;
     //private CustomAdapter.RecyclerViewClickListener Listener;
 
     private Button mAddBtn;
@@ -44,6 +45,16 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        button_profile = findViewById(R.id.button33);
+        button_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Home.this, Profile.class);
+                startActivity(intent);
+            }
+        });
+
         myDialog = new Dialog(this);
 
 //        displayItems();

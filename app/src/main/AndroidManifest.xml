@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mypplication">
         <activity
+            android:name=".Profile"
+            android:exported="true" />
+        <activity
+            android:name=".PostProfile"
+            android:exported="true" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="true">
             <intent-filter>

@@ -3,6 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/back_to_home_button.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/back_to_home_button1.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/edit_text4_background1.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/ic_btn1.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/ic_person.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/ic_person1.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/ic_setting.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/ic_setting1.xml" value="0.11944444444444445" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/drawable-v24/profile_back_button.xml" value="0.19166666666666668" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/activity_pet_details.xml" value="0.1" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/activity_petpost.xml" value="0.1" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/activity_profile1.xml" value="0.1" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/edit_profile1.xml" value="0.1" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/pop_up.xml" value="0.13541666666666666" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/set_age_dialog.xml" value="0.13541666666666666" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/single_item.xml" value="0.1" />
+        <entry key="..\:/Programe/projetandroid/pet-app-android/app/src/main/res/layout/single_itempost_profile.xml" value="0.1484375" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/drawable/button_bg.xml" value="0.149" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/drawable/login_bg.xml" value="0.1495" />
         <entry key="..\:/Users/infoo/Desktop/Android_App-master/app/src/main/res/layout/activity_add_pet.xml" value="0.26510416666666664" />

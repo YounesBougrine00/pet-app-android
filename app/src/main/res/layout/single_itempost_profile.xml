@@ -30,14 +30,14 @@
             android:layout_height="65dp"
             android:orientation="horizontal">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/imageView"
-                android:layout_width="100dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                tools:srcCompat="@tools:sample/avatars" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewpr"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    tools:srcCompat="@tools:sample/avatars" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textView4pr"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/didact_gothic"
@@ -59,7 +59,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/textView5pr"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="date"
@@ -79,7 +79,7 @@
             android:layout_marginBottom="5dp"
             >
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView2pr"
                 android:elevation="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -97,7 +97,7 @@
 
             <com.google.android.material.button.MaterialButton
 
-                android:id="@+id/like_button"
+                android:id="@+id/button6pr"
                 android:background="@drawable/btn_pink_background"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -113,8 +113,7 @@
                 android:stateListAnimator="@null"
                 />
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/button7"
-                android:onClick="ShowPopup"
+                android:id="@+id/button7pr"
                 android:background="@drawable/btn_yellow_background"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -133,18 +132,17 @@
                 />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/button9"
-                android:background="@drawable/btn_blue_background"
+                android:id="@+id/button9pr"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
-                android:layout_weight="1"
                 android:layout_marginBottom="2dp"
-                android:text="Button"
-                android:textSize="9dp"
-                android:textColor="@color/blue"
-                app:backgroundTint="@color/blue_light"
+                android:layout_weight="1"
+                android:background="@drawable/btn_blue_background1"
                 android:stateListAnimator="@null"
-                />
+                android:text="Button"
+                android:textColor="@color/blue"
+                android:textSize="9dp"
+                app:backgroundTint="@color/blue_light" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

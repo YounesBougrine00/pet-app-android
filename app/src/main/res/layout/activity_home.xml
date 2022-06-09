@@ -86,7 +86,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_home"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="352dp"
 
 
             >
@@ -109,6 +109,7 @@
         android:layout_height="match_parent"
         android:columnCount="4"
         android:rowCount="1"
+        android:layout_marginTop="-200dp"
         android:background="@drawable/edit_text2_background"
         >
 
@@ -141,7 +142,7 @@
             android:textColor="#959595"/>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button3"
+            android:id="@+id/button33"
             android:layout_columnWeight="1"
             android:layout_height="wrap_content"
             android:drawableTop="@drawable/ic_baseline_person_outline_24"

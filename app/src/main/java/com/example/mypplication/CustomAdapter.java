@@ -1,5 +1,6 @@
 package com.example.mypplication;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -36,7 +37,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull CustomViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull CustomViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
 
         Picasso.get().load(list.get(position).getImgUser()).into(holder.img1);
@@ -65,18 +66,18 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
 
                 if(like_click_one){
                     like_click_one=false;
-                int nb = 0;
+                    int nb = 0;
 
-                try {
-                    ConnectionDB.connect();
-                    nb = ConnectionDB.edite("update posts set likes="+(list.get(position).getLikes()+1)
-                            +" where id="+list.get(position).getId());
-                    ConnectionDB.disconnect();
-                } catch (ClassNotFoundException | SQLException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
-                if(nb!=0){holder.btn1.setText(String.valueOf(list.get(position).getLikes()+1));}
+                    try {
+                        ConnectionDB.connect();
+                        nb = ConnectionDB.edite("update posts set likes="+(list.get(position).getLikes()+1)
+                                +" where id="+list.get(position).getId());
+                        ConnectionDB.disconnect();
+                    } catch (ClassNotFoundException | SQLException e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
+                    }
+                    if(nb!=0){holder.btn1.setText(String.valueOf(list.get(position).getLikes()+1));}
                 }else {
                     like_click_one=true;
                     int nb = 0;
