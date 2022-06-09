@@ -60,7 +60,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
         Picasso.get().load(list.get(position).getImageUrl()).into(holder.img1);
         Picasso.get().load(list.get(position).getImageUrl()).into(holder.img2);
         //holder.img1.setImageBitmap(BitmapFactory.decodeFile(list.get(position).getImgUser()));
-        ////holder.txt1.setText(list.get(position).getName());
+        holder.txt1.setText(list.get(position).getName());
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
         //holder.txt2.setText(dateFormat.format(list.get(position).getDate()));
         holder.txt2.setText(dateFormat.format( new Date()));
