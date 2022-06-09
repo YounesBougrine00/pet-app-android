@@ -8,8 +8,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class ViewHolder extends RecyclerView.ViewHolder{
-    public ImageView img1,img2;
+    public ImageView img2;
+    public CircleImageView img1;
 public TextView txt1,txt2;
 public Button btn1,btn2,btn3;
     //private CustomAdapter.RecyclerViewClickListener Listener;

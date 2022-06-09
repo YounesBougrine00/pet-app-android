@@ -1,6 +1,11 @@
 package com.example.mypplication;
 
+import android.util.Log;
 import android.widget.Toast;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,6 +13,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PostManager {
+
+
+    private DatabaseReference firebaseRootRef;
+    private DatabaseReference eventsRef;
+
+    public PostManager()
+    {
+        FirebaseDatabase mFirebaseDatabase=FirebaseDatabase.getInstance();
+        firebaseRootRef = mFirebaseDatabase.getReference();
+        eventsRef=firebaseRootRef.child("posts");
+    }
 
     public List<PostModel> allPosts() {
         List<PostModel> posts = new ArrayList<PostModel>();
@@ -34,6 +50,10 @@ public class PostManager {
         return posts;
 
     }
+    public Query get()
+    {
 
+        return eventsRef;
+    }
 
 }

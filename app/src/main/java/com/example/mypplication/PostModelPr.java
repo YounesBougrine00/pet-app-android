@@ -16,7 +16,7 @@ public class PostModelPr {
 
     public PostModelPr(String imgUser, String imgPet, String userName, Date date, int likes, String commentaire, String status) {
 this.imgUser=imgUser;
-        this.imgUser=imgPet;
+        this.imgPet=imgPet;
         this.userName = userName;
         this.date = date;
         this.likes = likes;

@@ -95,7 +95,9 @@
                 app:endIconTint="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/field_username_icon"
-                app:startIconTint="@color/black">
+                app:startIconTint="@color/black"
+                android:focusableInTouchMode="true"
+                android:focusable="true">
 
 
                 <EditText

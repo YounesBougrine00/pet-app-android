@@ -85,8 +85,8 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_home"
-            android:layout_width="match_parent"
-            android:layout_height="352dp"
+            android:layout_width="400dp"
+            android:layout_height="443dp"
 
 
             >
@@ -109,7 +109,7 @@
         android:layout_height="match_parent"
         android:columnCount="4"
         android:rowCount="1"
-        android:layout_marginTop="-200dp"
+        android:layout_marginTop="-70dp"
         android:background="@drawable/edit_text2_background"
         >
 
@@ -131,15 +131,7 @@
             android:drawableTop="@drawable/ic__add"
             android:paddingTop="10dp" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button2"
-            android:layout_columnWeight="1"
-            android:layout_height="wrap_content"
-            android:drawableTop="@drawable/ic_baseline_message_24"
-            android:text="chat"
-            android:textSize="10dp"
-            android:background="#00FFFFFF"
-            android:textColor="#959595"/>
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button33"
